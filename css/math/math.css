@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
+
+.main-body {
+  background: #FFFFFF;
+  overflow: hidden;
+  width: 75%;
+  margin:0 auto;
+}
+#main {
+  display: block;
+}
+.results-body {
+  background: #f7f6d0;
+  overflow: hidden;
+  width: 75%;
+  margin:0 auto;
+}
+
+#results {
+  display: none;
+}
+
+#center-this {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#restitle{
+  color:#595749;
+}
+
+#resinfo {
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 1px;
+  color:#8c8a75;
+  font-size: 20pt;
+  text-align:center;
+  margin: 25px 50px 5px;
+}
+
+#points {
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 1px;
+  color:#666666;
+  font-size: 20pt;
+  text-align:center;
+  margin: 25px 50px 5px;
+}
+
+#settings {
+  display: none;
+}
+
+body {
+  background-color:#EFEFEF;
+  background-image:url("./Images/bg_op.png");
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: 'Fugaz One', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  text-align:center;
+  color:#444444;
+  font-size: 50pt;
+}
+h2 {
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 1px;
+  color:#444444;
+  font-size: 40pt;
+  text-align:center;
+  margin: 25px 50px 5px;
+}
+
+button {
+  font-family: "Mukta Malar",sans-serif;
+  letter-spacing: 1px;
+  font-size: 16pt;
+  text-align:center;
+  background-color: #444444;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=number] {
+  font-family: "Open Sans",sans-serif;
+  width: 30%;
+  font-size: 16pt;
+  padding: 14px 17px;
+  border: 3px solid #EEEEEE;
+  outline: none;
+  background-color: #EEEEEE;
+}
+input[type=submit] {
+  font-family: "Mukta Malar",sans-serif;
+  letter-spacing: 1px;
+  font-size: 16pt;
+  text-align:center;
+  background-color: #444444;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #777777;
+}
+input[type=number]:focus {
+  border: 3px solid #79a37c;
+}
+button:hover{
+  background-color: #777777;
+}

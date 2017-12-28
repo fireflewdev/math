@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="./css/math/math.css"></head>
+<html>
+    <title>Math Practice</title>
+    <body>
+      <div class = "main-body" id = "main">
+       <h1>Math Practice</h1>
+	         <h2 id = "question"> loading...</h2>
+        <p>
+          &nbsp;
+        </p>
+        <script src="./js/math/math.js"></script>
+        <div id ="center-this">
+          <input type="number" id = "inAns" name="ans" placeholder = "Type answer here..."><br>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+          <button type = "button" onclick = "submitAnswer();" >Submit!
+          </button>
+        </div>
+        <p>
+          &nbsp;
+        </p>
+        <p id = points> Points: 0 </p>
+        <p>
+          &nbsp;&nbsp;
+        </p>
+        <div id ="center-this">
+          <button type = "button" id = "settings" onclick = "alert('wip');" >Info
+          </button>
+        </div>
+        <p id = "settings">
+          &nbsp;
+        </p>
+     </div>
+     <div class = "results-body" id = "results">
+       <h1 id = "restitle">Results</h1>
+       <p id = "resinfo"> loading info... </p>
+       <p>
+         &nbsp;&nbsp;
+       </p>
+        <div id="center-this">
+          <button type = "button" onclick = 'toggleDiv("main","results");'' >Continue...
+          </button>
+       </div>
+       <p>
+         &nbsp;
+       </p>
+     </div>
+    </body>
+</html>
